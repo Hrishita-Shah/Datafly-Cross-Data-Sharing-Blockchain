@@ -1,0 +1,8 @@
+# Set Fabric config path
+export FABRIC_CFG_PATH=$(pwd)
+
+# Generate genesis block
+./bin/configtxgen -profile DataFlyGenesis -channelID system-channel -outputBlock ./genesis.block
+
+# Generate channel configuration transaction
+./bin/configtxgen -profile DataFlyChannel -outputCreateChannelTx ./channel.tx -channelID dataflychannel
