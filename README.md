@@ -199,15 +199,3 @@ docker logs datafly-protocol-messaging-1
 - Docker Compose: https://docs.docker.com/compose/
 
 ---
-
-## 🤝 Contributors
-
-- Hrishita Shah – @yourusername  
-- Project Mentors – Prasun, Lalithya, Hari, Swamy
-
----
-
-## 🚲 License
-
-MIT License. See LICENSE file for details.
-
